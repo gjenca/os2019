@@ -1,0 +1,16 @@
+-rwxr-xr-x 1 root root  640344 aug  3  2018 busybox
+-rwxr-xr-x 1 root root   78320 okt 25  2014 dumpkeys
+-rwxr-xr-x 1 root root   19680 sep  8  2014 lesskey
+-rwxr-xr-x 1 root root  111584 okt 25  2014 loadkeys
+-rwxr-xr-x 1 root root   68168 mar 14  2015 stty
+-rwxr-xr-x 1 root root   27112 mar 14  2015 sync
+-rwxr-xr-x 1 root root  538904 apr 25 13:39 systemctl
+lrwxrwxrwx 1 root root      20 apr 25 13:39 systemd -> /lib/systemd/systemd
+-rwxr-xr-x 1 root root   39160 apr 25 13:39 systemd-ask-password
+-rwxr-xr-x 1 root root   30944 apr 25 13:39 systemd-escape
+-rwxr-xr-x 1 root root  239864 apr 25 13:39 systemd-inhibit
+-rwxr-xr-x 1 root root   35048 apr 25 13:39 systemd-machine-id-setup
+-rwxr-xr-x 1 root root   30944 apr 25 13:39 systemd-notify
+-rwxr-xr-x 1 root root   88304 apr 25 13:39 systemd-tmpfiles
+-rwxr-xr-x 1 root root   59632 apr 25 13:39 systemd-tty-ask-password-agent
+lrwxrwxrwx 1 root root       8 nov  3  2013 ypdomainname -> hostname
