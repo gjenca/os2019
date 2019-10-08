@@ -11,11 +11,13 @@ int main() {
 		for (i=0;i<10000;i++) {
 			printf("PARENT\n");
 			printf("pid CHILD=%d\n",pid);
+			fflush(stdout);
 		}
 		
 	} else {
 		for (i=0;i<10000;i++) {
 			printf("CHILD\n");
+			fflush(stdout);
 		}
 	}
 }
