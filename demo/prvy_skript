@@ -1,0 +1,6 @@
+#!/bin/bash
+echo 'toto sa vypise'
+echo
+echo 'idem spustit ls'
+ls
+

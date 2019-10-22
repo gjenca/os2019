@@ -1,0 +1,17 @@
+run_bc.c~
+run_bc.c
+run_bc
+pipe_try.c~
+pipe_try.c
+pipe_try
+out2.txt
+out.txt
+fork3.c~
+fork3.c
+fork3
+fork2.c~
+fork2.c
+fork2
+fork1.c~
+fork1.c
+fork1
