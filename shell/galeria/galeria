@@ -1,0 +1,46 @@
+#!/bin/bash
+NADPIS="Galeria"
+PERCENTA=15
+while true
+do
+if [ "$1" == "-h" ]
+then
+	NADPIS="$2"
+	shift 2
+	continue
+elif [ "$1" == "-p" ]
+then
+	PERCENTA="$2"
+	shift 2
+	continue
+else
+	break
+fi
+done
+if test ! -d mini 
+then
+	mkdir mini
+fi
+cat <<THEEND
+<html>
+<head>
+</head>
+<body>
+<h1>
+$NADPIS
+</h1>
+<ul>
+THEEND
+for OBR in "$@"
+do
+	PNGOBR=$(echo "$OBR" | sed 's/\.[^.]*$/.png/')
+	echo "<li>"
+	echo "<a href=\"$OBR\"><img src=\"mini/$PNGOBR\"></a>"
+	echo "</li>"
+	convert -resize "$PERCENTA%" "$OBR" "mini/$PNGOBR"	
+done
+cat <<THEEND
+</ul>
+</body>
+</html>
+THEEND
