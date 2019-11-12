@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+if 1<3:
+    print("pravda")
+else:
+    print("nepravda")
+
+
+

@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+START=1001
+n=START
+zoz=[]
+while n>1:
+    zoz.append(n)
+    if (n % 2)==0:
+        n=n//2
+    else:
+        n=3*n+1
+zoz.append(n)
+print(zoz)
+
+
+
+
+
