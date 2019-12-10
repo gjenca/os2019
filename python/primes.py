@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
+"""Modul o prvočíslach
+"""
 
 def primes(until,fromm=2):
+
+    """Vráti zoznam prvočísel
+until - pokiaľ
+fromm - odkiaľ"""
 
     p=[]
     for n in range(fromm,until):
